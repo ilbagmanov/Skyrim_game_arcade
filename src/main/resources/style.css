@@ -1,0 +1,46 @@
+@font-face {
+    font-family: progresspixel-bold;
+    src: url('font/19363.ttf');
+}
+
+#body {
+    -fx-background-image: url(texture/level_design/1/floor.png);
+    -fx-background-size: 100px;
+}
+
+.test{
+    -fx-fill: #6495ed;
+    -fx-border-color: #000000;
+    -fx-border-width: 2px;
+}
+
+.hero {
+    -fx-background-image: url(texture/static/heroes/hero1.png);
+    -fx-fill: url(texture/static/heroes/hero3.png);
+}
+
+.wall {
+    -fx-fill: url(texture/level_design/1/wall.png);
+}
+.bar {
+    -fx-fill: url(texture/static/bar.png);
+}
+
+.text {
+    -fx-font-size: 30px;
+    -fx-fill: WHITE;
+    -fx-font-family: progresspixel-bold;
+}
+
+.smallInfo {
+    -fx-font-size: 20px;
+    -fx-fill: WHITE;
+    -fx-font-family: progresspixel-bold;
+
+}
+
+.finish {
+    -fx-font-size: 50px;
+    -fx-fill: WHITE;
+    -fx-font-family: progresspixel-bold;
+}

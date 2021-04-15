@@ -1,0 +1,38 @@
+@font-face {
+    font-family: progresspixel-bold;
+    src: url('font/19363.ttf');
+}
+
+
+#body {
+    -fx-background-color: black;
+}
+
+.title {
+    -fx-font-family: progresspixel-bold;
+    -fx-font-size: 40px;
+    -fx-fill: white;
+}
+
+.menuText, .port {
+    -fx-font-family: progresspixel-bold;
+    -fx-font-size: 30px;
+    -fx-background-color: black;
+    -fx-border-color: black;
+    -fx-fill: white;
+}
+
+.menuText:hover {
+    -fx-fill: RED;
+}
+
+.inputPort {
+    -fx-font-family: progresspixel-bold;
+    -fx-font-size: 30px;
+    -fx-background-color: black;
+    -fx-text-fill: white;
+    -fx-padding: 5px;
+    -fx-border-insets: 5px;
+    -fx-background-insets: 5px;
+    -fx-border-color: grey;
+}
